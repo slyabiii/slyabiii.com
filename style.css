@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    background: #1d1d1d;
+    min-height: 100vh;
+    width: 100%;
+    
+}
+
+#hi{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+
+#hi path:nth-child(1){
+    fill: #646464;
+    fill-opacity: 0;
+    transition: opacity ease-in-out 230ms;
+    stroke-dasharray: 315.52;
+    stroke-dashoffset: 315.52;
+    animation: line-anim 2s ease forwards;
+}
+
+#hi path:nth-child(2){
+    fill: #646464;
+    fill-opacity: 0;
+    transition: opacity ease-in-out 230ms;
+    stroke-dasharray: 141.554;
+    stroke-dashoffset: 141.554;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+#hi path:nth-child(3){
+    fill: #646464;
+    fill-opacity: 0;
+    transition: opacity ease-in-out 230ms;
+    stroke-dasharray: 98.422;
+    stroke-dashoffset: 98.422;
+    animation: line-anim 2s ease forwards 0.8s;
+}
+#hi path:nth-child(4){
+    fill: #646464;
+    fill-opacity: 0;
+    transition: opacity ease-in-out 230ms;
+    stroke-dasharray: 149.303;
+    stroke-dashoffset: 149.303;
+    animation: line-anim 2s ease forwards 1s;
+}
+#hi path:nth-child(5){
+    fill: #646464;
+    fill-opacity: 0;
+    transition: opacity ease-in-out 230ms;
+    stroke-dasharray: 161.02;
+    stroke-dashoffset: 161.02;
+    animation: line-anim 2s ease forwards 1.2s;
+}
+#hi path:nth-child(6){
+    fill: #646464;
+    fill-opacity: 0;
+    transition: opacity ease-in-out 230ms;
+    stroke-dasharray: 76.883;
+    stroke-dashoffset: 76.883;
+    animation: line-anim 2s ease forwards 1.4s;
+}
+#hi path:nth-child(7){
+    fill: #646464;
+    fill-opacity: 0;
+    transition: opacity ease-in-out 230ms;
+    stroke-dasharray: 161.02;
+    stroke-dashoffset: 161.02;
+    animation: line-anim 2s ease forwards 1.6s;
+}
+#hi path:nth-child(8){
+    fill: #646464;
+    fill-opacity: 0;
+    transition: opacity ease-in-out 230ms;
+    stroke-dasharray: 124.927;
+    stroke-dashoffset: 124.927;
+    animation: line-anim 2s ease forwards 1.8s;
+}
+
+#hi path:nth-child(1):hover{
+    fill-opacity: 1;
+}
+#hi path:nth-child(2):hover{
+    fill-opacity: 1;
+}
+#hi path:nth-child(3):hover{
+    fill-opacity: 1;
+}
+#hi path:nth-child(4):hover{
+    fill-opacity: 1;
+}
+#hi path:nth-child(5):hover{
+    fill-opacity: 1;
+}
+#hi path:nth-child(6):hover{
+    fill-opacity: 1;
+}
+#hi path:nth-child(7):hover{
+    fill-opacity: 1;
+}
+#hi path:nth-child(8):hover{
+    fill-opacity: 1;
+}
+@keyframes line-anim{
+    to{
+        stroke-dasharray: 350;
+        stroke-dashoffset: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #hi{
+        position: absolute;
+        width: 100%;
+        padding: 2%;
+
+    }
+    
+}
