@@ -6,9 +6,9 @@
 }
 
 .hero{
-    background: #ffffff;
+    background: #2B2B2B;
     min-height: 100vh;
-    width: 100%;
+    width: 100vw;
     
 }
 
@@ -112,11 +112,23 @@
 #hi path:nth-child(8):hover{
     fill-opacity: 1;
 }
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @keyframes line-anim{
+    
     to{
         stroke-dasharray: 350;
         stroke-dashoffset: 0;
     }
+}
+
+.social{
+    ;
 }
 
 @media screen and (max-width: 700px) {
