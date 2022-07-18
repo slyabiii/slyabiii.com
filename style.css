@@ -142,7 +142,6 @@
     right: 0;
     left: 0;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -153,13 +152,20 @@
 #github,
 #instagram,
 #linkedin {
-    font-size: 4vh ;
+    font-size: 4vh;
     color: #646464;
     background-color: #2B2B2B;
     box-shadow: 4px 4px 8px #00000080;
-    border-radius: 30px;
+    border-radius: 20px;
     margin: 2px;
-    animation: social-anim 3s;
+    padding: 2px 5px;
+    
+}
+
+#github:hover,
+#linkedin:hover,
+#instagram :hover {
+    text-shadow: 0 0 30px #939393;
 }
 
 
@@ -174,9 +180,3 @@
     .socials li {
         margin: 0 5%;
     }
-
-    #github,
-    #instagram,
-    #linkedin {
-        
-}
