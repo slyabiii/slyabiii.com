@@ -155,10 +155,10 @@
     font-size: 4vh;
     color: #646464;
     background-color: #2B2B2B;
-    box-shadow: 4px 4px 8px #00000080;
-    border-radius: 20px;
-    margin: 2px;
-    padding: 0px 4px;
+    box-shadow: 0px 4px 8px #00000080;
+    border-radius: 100%;
+    margin: 20px;
+    padding: 1px 6px;
     
 }
 
@@ -169,14 +169,15 @@
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     #hi {
         position: absolute;
         width: 100%;
-        padding: 2.5%;
+        padding: 10%;
 
     }
 
     .socials li {
         margin: 0 5%;
     }
+}
