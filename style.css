@@ -17,7 +17,7 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    transition: all 1s;
 
 }
 
@@ -94,34 +94,13 @@
     animation: line-anim 2s ease forwards 1.8s;
 }
 
-#hi path:nth-child(1):hover {
-    fill-opacity: 1;
-}
-
-#hi path:nth-child(2):hover {
-    fill-opacity: 1;
-}
-
-#hi path:nth-child(3):hover {
-    fill-opacity: 1;
-}
-
-#hi path:nth-child(4):hover {
-    fill-opacity: 1;
-}
-
-#hi path:nth-child(5):hover {
-    fill-opacity: 1;
-}
-
-#hi path:nth-child(6):hover {
-    fill-opacity: 1;
-}
-
-#hi path:nth-child(7):hover {
-    fill-opacity: 1;
-}
-
+#hi path:nth-child(1):hover,
+#hi path:nth-child(2):hover,
+#hi path:nth-child(3):hover,
+#hi path:nth-child(4):hover,
+#hi path:nth-child(5):hover,
+#hi path:nth-child(6):hover,
+#hi path:nth-child(7):hover,
 #hi path:nth-child(8):hover {
     fill-opacity: 1;
 }
@@ -159,12 +138,13 @@
     border-radius: 100%;
     margin: 20px;
     padding: 1px 6px;
-    
+    transition: all 1s;
+
 }
 
 #github:hover,
 #linkedin:hover,
-#instagram :hover {
+#instagram:hover {
     text-shadow: 0 0 30px #939393;
 }
 
@@ -173,7 +153,7 @@
     #hi {
         position: absolute;
         width: 100%;
-        padding: 10%;
+        padding: 5%;
 
     }
 
