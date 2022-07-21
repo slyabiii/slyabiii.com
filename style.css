@@ -103,6 +103,7 @@
 #hi path:nth-child(7):hover,
 #hi path:nth-child(8):hover {
     fill-opacity: 1;
+    transition: all 1s;
 }
 
 @keyframes line-anim {
@@ -138,7 +139,7 @@
     border-radius: 100%;
     margin: 20px;
     padding: 1px 6px;
-    transition: all 1s;
+    transition: all 500ms;
 
 }
 
